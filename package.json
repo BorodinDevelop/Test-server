@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "abc",
+  "main": "index.js",
+  "author": "Ilia",
+  "license": "ISC",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/BorodinDevelop/Test-server.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-plugin-node": "11.1.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
